@@ -1,0 +1,38 @@
+.jumbotron
+{
+    background: linear-gradient(to right top, #4cbcd3, #89d3e2);
+}
+html, body {
+    margin: 0;
+    height: 100%;
+}
+body {
+    background: linear-gradient(to right top,#a2cc6d,#c6e0a6);
+}
+.game-button
+{
+	width: 125px;
+	height: 125px;
+	border-radius: 8px;
+}
+.game-row
+{
+	background-color: pink;
+}
+.pixelated-font
+{
+    font-family: 'VT323', monospace;
+}
+.welcome-title
+{
+    font-size: 75px;
+    font-weight: 600;
+}
+.welcome-sub-title
+{
+    font-size: 25px;
+}
+.white-text
+{
+    color: white;
+}
