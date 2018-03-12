@@ -9,6 +9,7 @@
 	<script src="https://cdnjs.cloudf
 	lare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="../css/Guessrgb.css">
 	<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
 	<script type="text/javascript" src="../js/Guessrgb.js"></script>
@@ -16,36 +17,48 @@
 <body>
 	<center>
 		<div class="jumbotron">
-			<h1 class="display-4 white-text welcome-title pixelated-font">Welcome to Guess RGB</h1>
+			<div class="row">
+				<div class="col-lg-3">
+					<h1 class="display-4 white-text pixelated-font underlined">Instructions</h1>
+					<ul class="white-text text-left">
+						<li><h6 class="white-text pixelated-font medium-font "> Guess the colors based on the combination of Red, Green and Blue</h6></li>
+						<li><h6 class="white-text pixelated-font medium-font underlined"><a class="white-text"href="https://en.wikipedia.org/wiki/RGB_color_model" target="_blank">Read about Colors <i class="fas fa-globe"></i> </a></h6></li>
+					</ul>
+				</div>
+				<div class="col-lg-6">
+					<h1 class="display-4 white-text welcome-title pixelated-font">Welcome to Guess RGB</h1>
+				</div>
+				<div class="col-lg-3">
+					<h1 class="display-4 white-text pixelated-font underlined">Leaderboard</h1>
+				</div>
+			</div>
 		</div>
 	</center>
-	<div class="container">
+	<div class="container display">
 		<div class="row game-row">
-			<div class="col-lg-3 col-sm-6">
-				<button class="game-button">Hello</button>
+			<div class="col-center col-lg-3 col-sm-6">
+				<button class="game-button">1</button>
 			</div>
 			<div class="col-lg-3 col-sm-6">
-				<button class="game-button">Hello</button>
+				<button class="game-button">2</button>
 			</div>
 			<div class="col-lg-3 col-sm-6">
-				<button class="game-button">Hello</button>
+				<button class="game-button">3</button>
 			</div>
 			<div class="col-lg-3 col-sm-6">
-				<button class="game-button">Hello</button>
-			</div>
-		</div>
-		<div class="row game-row">
-			<div class="col-lg-3 col-sm-6">
-				<button class="game-button">Hello</button>
+				<button class="game-button">4</button>
 			</div>
 			<div class="col-lg-3 col-sm-6">
-				<button class="game-button">Hello</button>
+				<button class="game-button">5</button>
 			</div>
 			<div class="col-lg-3 col-sm-6">
-				<button class="game-button">Hello</button>
+				<button class="game-button">6</button>
 			</div>
 			<div class="col-lg-3 col-sm-6">
-				<button class="game-button">Hello</button>
+				<button class="game-button">7</button>
+			</div>
+			<div class="col-lg-3 col-sm-6">
+				<button class="game-button">8</button>
 			</div>
 		</div>
 	</div>

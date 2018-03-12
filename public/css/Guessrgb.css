@@ -17,24 +17,37 @@ html, body {
 body {
     background: linear-gradient(to right top,#a2cc6d,#c6e0a6);
 }
+.display {
+    background-color: black;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .game-button
 {
-	width: 125px;
-	height: 125px;
-	border-radius: 8px;
+	width: 200px;
+	height: 200px;
+	border-radius: 15px;
     cursor: pointer;
+    margin: 5px;
 }
 .game-row
 {
-	background-color: pink;
+    padding: 5px;
+}
+.medium-font {
+    font-size: 18px;
 }
 .pixelated-font
 {
     font-family: 'VT323', monospace;
 }
+.underlined {
+    text-decoration: underline;
+}
 .welcome-title
 {
-    font-size: 75px;
+    font-size: 60x;
     font-weight: 600;
 }
 .white-text
