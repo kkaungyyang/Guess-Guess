@@ -1,3 +1,23 @@
-#title { 
-	font-size: 50px;
+h1 {
+	color: red;
+	border: 12px solid black;
+	font-size: 80px
 }
+
+
+body {
+	background-color: beige;
+	
+}
+
+#guess_rgb_game_link {  /*css for guess guess*/
+	color: green;
+	font-size: 70px;
+	border: 9px solid black;
+	margin-top: 300px;
+	margin-bottom: 300px;
+	margin-right: 300px;
+	margin-left: 300px;
+}
+
+
