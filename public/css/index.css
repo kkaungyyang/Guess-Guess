@@ -1,23 +1,22 @@
 h1 {
-	color: red;
-	border: 12px solid black;
-	font-size: 80px
-}
-
-
-body {
-	background-color: beige;
+	color: black;
+	border: 12px solid beige;
+	font-size: 100px;
+	font-family: Arial;
+	padding:10px;
+	text-align:center;
 	
 }
 
+
 #guess_rgb_game_link {  /*css for guess guess*/
-	color: green;
-	font-size: 70px;
-	border: 9px solid black;
+	color: black;
+	font-size: 170px;
+	font-family: Arial;
 	margin-top: 300px;
 	margin-bottom: 300px;
-	margin-right: 300px;
-	margin-left: 300px;
+	margin-right: 400px;
+	margin-left: 400px;
+	
+
 }
-
-
